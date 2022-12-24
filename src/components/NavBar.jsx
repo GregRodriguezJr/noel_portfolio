@@ -41,13 +41,13 @@ function NavBar() {
                 }
             >
                 <ul>
-                    <li className="py-5">
+                    <li className="py-5" onClick={handleNav}>
                         <a className="uppercase text-white hover:underline" href="#home">Home</a>
                     </li>
-                    <li className="py-5">
+                    <li className="py-5" onClick={handleNav}>
                         <a className="uppercase text-white hover:underline" href="#albums">Albums</a>
                     </li>
-                    <li className="py-5">
+                    <li className="py-5" onClick={handleNav}>
                         <a className="uppercase text-white hover:underline" href="#contact">contact</a>
                     </li>
                 </ul>
