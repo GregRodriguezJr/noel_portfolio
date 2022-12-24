@@ -7,9 +7,9 @@ function NavBar() {
     const handleNav = () => {
         setNav(!nav);
     }
-    // #282c34
-  return (
-    <div className="w-full h-[80px] bg-[#282c34]">
+
+    return (
+    <div className="fixed w-full h-[80px] bg-[#282c34] z-[100] shadow-xl">
         <div className="max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full">
             <p className="text-white text-3xl">
                 NO<span>&Euml;</span>L
@@ -36,7 +36,7 @@ function NavBar() {
             <div 
                 className={
                     nav 
-                    ? 'w-full absolute top-[80px] left-0 flex justify-center text-center text-white bg-[#282c34] md:hidden'
+                    ? 'w-full absolute top-[80px] left-0 flex justify-center text-center text-white bg-[#282c34] md:hidden ease-in duration-300'
                     : 'absolute left-[-100%] text-white md:hidden'
                 }
             >
