@@ -17,13 +17,13 @@ function NavBar() {
             <div className="hidden md:flex">
                 <ul className="flex items-center">
                     <li className="px-5">
-                        <a className="uppercase text-white hover:underline" href="#main">Home</a>
+                        <a className="uppercase text-white hover:underline" href="/#main">Home</a>
                     </li>
                     <li className="px-5">
-                        <a className="uppercase text-white hover:underline" href="#albums">Albums</a>
+                        <a className="uppercase text-white hover:underline" href="/#albums">Albums</a>
                     </li>
                     <li className="px-5">
-                        <a className="uppercase text-white hover:underline" href="#contact">contact</a>
+                        <a className="uppercase text-white hover:underline" href="/#contact">contact</a>
                     </li>
                 </ul>
             </div>
