@@ -1,8 +1,8 @@
 import React from "react";
 
-const Home = () => {
+const Main = () => {
   return (
-    <div id="home" className="w-full h-screen text-center">
+    <div id="main" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <h1 className="py-4 uppercase">Home</h1>
@@ -18,4 +18,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Main;

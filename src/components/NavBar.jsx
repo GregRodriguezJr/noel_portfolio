@@ -17,7 +17,7 @@ function NavBar() {
             <div className="hidden md:flex">
                 <ul className="flex items-center">
                     <li className="px-5">
-                        <a className="uppercase text-white hover:underline" href="#home">Home</a>
+                        <a className="uppercase text-white hover:underline" href="#main">Home</a>
                     </li>
                     <li className="px-5">
                         <a className="uppercase text-white hover:underline" href="#albums">Albums</a>
@@ -42,7 +42,7 @@ function NavBar() {
             >
                 <ul>
                     <li className="py-5" onClick={handleNav}>
-                        <a className="uppercase text-white hover:underline" href="#home">Home</a>
+                        <a className="uppercase text-white hover:underline" href="#main">Home</a>
                     </li>
                     <li className="py-5" onClick={handleNav}>
                         <a className="uppercase text-white hover:underline" href="#albums">Albums</a>

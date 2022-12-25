@@ -4,7 +4,7 @@ const Albums = () => {
   return (
     <div id='albums' className='w-full'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
-            <h2 className='uppercase text-center pb-5 text-xl'>Photo Albums</h2>
+            <h2 className='uppercase text-center p-5 text-xl'>Photo Albums</h2>
             <div className='grid md:grid-cols-2 gap-8'>
                 <div className='flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 hover:scale-105 duration-150 cursor-pointer'>
                     <img src="https://images.unsplash.com/photo-1512316609839-ce289d3eba0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW9kZWx8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" className='rounded-xl' />
